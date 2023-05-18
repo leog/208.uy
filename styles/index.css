@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Brexo";
-  src: local("Brexo"), url(./fonts/Brexo.otf) format("otf");
+  src: local("Brexo"), url(/fonts/Brexo.otf) format("otf");
 }
 
 @tailwind utilities;

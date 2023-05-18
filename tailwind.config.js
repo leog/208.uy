@@ -4,6 +4,7 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -27,6 +28,9 @@ module.exports = {
         '6xl': '2.75rem',
         '7xl': '4.5rem',
         '8xl': '6.25rem',
+      },
+      fontFamily: {
+        'brexo': ['Brexo']
       },
       boxShadow: {
         small: '0 5px 10px rgba(0, 0, 0, 0.12)',

@@ -7,11 +7,11 @@ export default function CoverImage({ title, slug, image: source, priority }) {
   const image = source?.asset?._ref ? (
     <div
       className={cn('shadow-small', {
-        'hover:shadow-medium transition-shadow duration-200': slug,
+        'hover:shadow-medium transition-shadow duration-200 rounded-tl-3xl rounded-br-3xl': slug,
       })}
     >
       <Image
-        className="w-full h-auto"
+        className="w-full h-auto rounded-tl-3xl rounded-br-3xl"
         width={2000}
         height={1000}
         alt={`Cover Image for ${title}`}
